@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* particles-js */
+
+#particles-js{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(./img/B-7.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* agr hum element pr position absolute nahi lagaengy tw particles js element ky background pr nahi ayengy */
+/* is liye position absolute laga kr element ko body se bhar lana parega  */
+h1{
+    color: white;
+    position: absolute;
+    font-size: 4rem;
+}
